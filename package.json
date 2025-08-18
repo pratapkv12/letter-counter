@@ -1,0 +1,43 @@
+{
+  "name": "coldstorm-ai",
+  "version": "1.0.0",
+  "description": "AI-powered cold email automation platform",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "install-python": "cd ai_engine && pip install -r requirements.txt && cd ../whatsapp_bot && pip install -r requirements.txt && cd ../excel_export && pip install -r requirements.txt",
+    "dev": "concurrently \"npm run dev-backend\" \"npm run dev-frontend\" \"npm run dev-ai\"",
+    "dev-backend": "cd backend && npm run dev",
+    "dev-frontend": "cd frontend && npm run dev",
+    "dev-ai": "cd ai_engine && uvicorn email_generator:app --reload --port 8001",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cold-email",
+    "ai",
+    "automation",
+    "email-marketing",
+    "lead-generation"
+  ],
+  "author": "ColdStorm.AI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "python": ">=3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/coldstorm-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/coldstorm-ai/issues"
+  },
+  "homepage": "https://github.com/your-username/coldstorm-ai#readme"
+}
