@@ -1,0 +1,44 @@
+timestamp,campaign_id,campaign_name,lead_email,event_type,message_id,subject,open_count,click_count,reply_text,sentiment,user_agent
+2024-01-15 09:30:00,camp_001,Q4 Tech Outreach,john.smith@techcorp.com,sent,msg_001,Quick question about TechCorp's AI strategy,0,0,,neutral,
+2024-01-15 10:45:00,camp_001,Q4 Tech Outreach,john.smith@techcorp.com,delivered,msg_001,Quick question about TechCorp's AI strategy,0,0,,neutral,
+2024-01-15 14:20:00,camp_001,Q4 Tech Outreach,john.smith@techcorp.com,opened,msg_001,Quick question about TechCorp's AI strategy,1,0,,positive,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+2024-01-15 14:22:00,camp_001,Q4 Tech Outreach,john.smith@techcorp.com,clicked,msg_001,Quick question about TechCorp's AI strategy,1,1,,positive,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+2024-01-15 16:30:00,camp_001,Q4 Tech Outreach,john.smith@techcorp.com,replied,msg_001,Quick question about TechCorp's AI strategy,1,1,"Thanks for reaching out! This looks interesting. Can we schedule a call next week?",positive,
+2024-01-15 09:35:00,camp_001,Q4 Tech Outreach,sarah@innovateai.com,sent,msg_002,InnovateAI's growth trajectory caught my attention,0,0,,neutral,
+2024-01-15 10:50:00,camp_001,Q4 Tech Outreach,sarah@innovateai.com,delivered,msg_002,InnovateAI's growth trajectory caught my attention,0,0,,neutral,
+2024-01-15 11:15:00,camp_001,Q4 Tech Outreach,sarah@innovateai.com,opened,msg_002,InnovateAI's growth trajectory caught my attention,1,0,,positive,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+2024-01-15 09:40:00,camp_001,Q4 Tech Outreach,mchen@scaleco.io,sent,msg_003,ScaleCo's engineering approach,0,0,,neutral,
+2024-01-15 10:55:00,camp_001,Q4 Tech Outreach,mchen@scaleco.io,delivered,msg_003,ScaleCo's engineering approach,0,0,,neutral,
+2024-01-15 13:45:00,camp_001,Q4 Tech Outreach,mchen@scaleco.io,opened,msg_003,ScaleCo's engineering approach,1,0,,positive,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36
+2024-01-15 13:47:00,camp_001,Q4 Tech Outreach,mchen@scaleco.io,clicked,msg_003,ScaleCo's engineering approach,1,1,,positive,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36
+2024-01-15 15:20:00,camp_001,Q4 Tech Outreach,mchen@scaleco.io,replied,msg_003,ScaleCo's engineering approach,1,1,"Hi! I'm interested in learning more. What's the best time to connect?",positive,
+2024-01-16 09:00:00,camp_002,SaaS Startup Follow-up,emma@growthstartup.com,sent,msg_004,Following up on GrowthStartup's expansion,0,0,,neutral,
+2024-01-16 09:15:00,camp_002,SaaS Startup Follow-up,emma@growthstartup.com,delivered,msg_004,Following up on GrowthStartup's expansion,0,0,,neutral,
+2024-01-16 10:30:00,camp_002,SaaS Startup Follow-up,emma@growthstartup.com,opened,msg_004,Following up on GrowthStartup's expansion,1,0,,positive,Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15
+2024-01-16 09:05:00,camp_002,SaaS Startup Follow-up,david@futuretech.ai,sent,msg_005,FutureTech's AI innovation,0,0,,neutral,
+2024-01-16 09:20:00,camp_002,SaaS Startup Follow-up,david@futuretech.ai,delivered,msg_005,FutureTech's AI innovation,0,0,,neutral,
+2024-01-16 11:45:00,camp_002,SaaS Startup Follow-up,david@futuretech.ai,opened,msg_005,FutureTech's AI innovation,1,0,,positive,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+2024-01-16 11:47:00,camp_002,SaaS Startup Follow-up,david@futuretech.ai,clicked,msg_005,FutureTech's AI innovation,1,1,,positive,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+2024-01-16 14:15:00,camp_002,SaaS Startup Follow-up,david@futuretech.ai,replied,msg_005,FutureTech's AI innovation,1,1,"This aligns perfectly with what we're building. Let's definitely talk!",positive,
+2024-01-16 09:10:00,camp_002,SaaS Startup Follow-up,lisa.wang@cloudnine.com,sent,msg_006,CloudNine's product direction,0,0,,neutral,
+2024-01-16 09:25:00,camp_002,SaaS Startup Follow-up,lisa.wang@cloudnine.com,delivered,msg_006,CloudNine's product direction,0,0,,neutral,
+2024-01-16 12:00:00,camp_002,SaaS Startup Follow-up,lisa.wang@cloudnine.com,opened,msg_006,CloudNine's product direction,1,0,,positive,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+2024-01-17 08:45:00,camp_003,Enterprise Prospects,rtaylor@datainsights.co,sent,msg_007,DataInsights Co's analytics infrastructure,0,0,,neutral,
+2024-01-17 09:00:00,camp_003,Enterprise Prospects,rtaylor@datainsights.co,delivered,msg_007,DataInsights Co's analytics infrastructure,0,0,,neutral,
+2024-01-17 10:15:00,camp_003,Enterprise Prospects,rtaylor@datainsights.co,opened,msg_007,DataInsights Co's analytics infrastructure,1,0,,positive,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+2024-01-17 08:50:00,camp_003,Enterprise Prospects,amanda@automateflow.io,sent,msg_008,AutomateFlow's workflow optimization,0,0,,neutral,
+2024-01-17 09:05:00,camp_003,Enterprise Prospects,amanda@automateflow.io,delivered,msg_008,AutomateFlow's workflow optimization,0,0,,neutral,
+2024-01-17 11:30:00,camp_003,Enterprise Prospects,amanda@automateflow.io,opened,msg_008,AutomateFlow's workflow optimization,1,0,,positive,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+2024-01-17 11:32:00,camp_003,Enterprise Prospects,amanda@automateflow.io,clicked,msg_008,AutomateFlow's workflow optimization,1,1,,positive,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+2024-01-17 13:45:00,camp_003,Enterprise Prospects,amanda@automateflow.io,replied,msg_008,AutomateFlow's workflow optimization,1,1,"We're actually evaluating solutions in this space. Can you send more details?",positive,
+2024-01-17 08:55:00,camp_003,Enterprise Prospects,james@securetech.com,sent,msg_009,SecureTech's security framework,0,0,,neutral,
+2024-01-17 09:10:00,camp_003,Enterprise Prospects,james@securetech.com,delivered,msg_009,SecureTech's security framework,0,0,,neutral,
+2024-01-17 09:12:00,camp_003,Enterprise Prospects,james@securetech.com,bounced,msg_009,SecureTech's security framework,0,0,,negative,
+2024-01-18 09:30:00,camp_001,Q4 Tech Outreach,kevin@financeai.com,sent,msg_010,FinanceAI's technology stack,0,0,,neutral,
+2024-01-18 09:45:00,camp_001,Q4 Tech Outreach,kevin@financeai.com,delivered,msg_010,FinanceAI's technology stack,0,0,,neutral,
+2024-01-18 14:20:00,camp_001,Q4 Tech Outreach,kevin@financeai.com,opened,msg_010,FinanceAI's technology stack,1,0,,positive,Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15
+2024-01-18 16:45:00,camp_001,Q4 Tech Outreach,kevin@financeai.com,replied,msg_010,FinanceAI's technology stack,1,0,"Not interested at this time. Please remove me from your list.",negative,
+2024-01-18 09:35:00,camp_001,Q4 Tech Outreach,rachel@ecommerceplus.com,sent,msg_011,EcommercePlus's digital transformation,0,0,,neutral,
+2024-01-18 09:50:00,camp_001,Q4 Tech Outreach,rachel@ecommerceplus.com,delivered,msg_011,EcommercePlus's digital transformation,0,0,,neutral,
+2024-01-18 15:30:00,camp_001,Q4 Tech Outreach,rachel@ecommerceplus.com,opened,msg_011,EcommercePlus's digital transformation,1,0,,positive,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+2024-01-18 15:35:00,camp_001,Q4 Tech Outreach,rachel@ecommerceplus.com,opened,msg_011,EcommercePlus's digital transformation,2,0,,positive,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
